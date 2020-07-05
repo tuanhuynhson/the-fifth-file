@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0
+}
+.die {
+    background-color: red;
+    display: flex;
+    list-style: none;
+}
+.die li{
+    padding: 20px 80px;
+}
+.die li a {
+    text-decoration: none;
+    color: white;
+}
+.die li:hover {
+    background-color: teal;
+}
+.survive{
+    display: none;
+    text-decoration: none;
+}
+.die:hover + .survive{
+    display: block;
+    color: black;
+    background-color: red;
+    width: 100px;
+    text-decoration:none;
+} 
+.survive:hover{
+    display: block;
+    color: white;
+    background-color: red;
+    width: 100px;
+    text-decoration: none;
+}
+.survive li:hover{
+    background-color: teal;
+    text-decoration: none;
+}
+.survive a {
+    text-decoration: none;
+    color: white;
+}
+.ass{length: 500px;}
+.gay{
+    display: none;
+}
+.survive:hover + .gay {
+    display: block;
+    color: white;
+    background-color: red;
+    width: 100px;
+
+}
+.gay:hover{
+    display: block;
+    color: white;
+    background-color: red;
+    width: 100px;
+    text-decoration: none;
+}
+.gay li:hover{
+    background-color: teal;
+    text-decoration: none;
+}
+.gay a {
+    text-decoration: none;
+    color: white;
+}
+.gay:hover + .survive {
+    display: block;
+    color: white;
+    background-color: red;
+    width: 100px;
+    text-decoration: none;
+}
